@@ -13,22 +13,49 @@ body {
     background-color: #111; 
   }
 
-  h1, h2 {
+  h1, h2, h3, h4, h5 {
     color: #a05c5b;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 600;
   }
 
+  h3, h4, h5 {
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  a, p, span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+  }
 
   a {
     color: #ab9898;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
   }
 
   a:hover {
     color: #994544;
+  }
+
+  .bloc {
+    background-color: #e4d8d8;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .typo {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .typo2 {
+    padding-top: 0.75rem;
+  }
+
+  hr {
+    border: 1px solid #a05c5b;
   }
   
   nav {
